@@ -9,7 +9,8 @@ if len(sys.argv) == 3 and sys.argv[1] in ["-f"]:
     try:
         # Asking the user for an input
         text = input("Input: ")
-        # Printing the input with the font style  
+        # Printing the input with the font style
+        print("Output: ")  
         result_2 = pyfiglet.figlet_format(text, font= sys.argv[2])
         print(result_2)
         
